@@ -23,4 +23,4 @@ print_hi("Tom")
 
 Check out the [Hugo docs](https://gohugo.io/documentation/) for more info on how to get the most out of Hugo. File all bugs/feature requests at [Hugo’s GitHub repo](https://github.com/gohugoio/hugo). If you have questions, you can ask them on [Hugo Community](https://discourse.gohugo.io/).
 
-[https://www.instagram.com/p/BjCbZxjlMvq/?taken-by=deepikapadukonebeautiful](https://www.instagram.com/p/BjCbZxjlMvq/?taken-by=deepikapadukonebeautiful "https://www.instagram.com/p/BjCbZxjlMvq/?taken-by=deepikapadukonebeautiful")
+{{< instagram [BjCbZxjlMvq](https://www.instagram.com/p/BjCbZxjlMvq/?taken-by=deepikapadukonebeautiful "https://www.instagram.com/p/BjCbZxjlMvq/?taken-by=deepikapadukonebeautiful") >}}
