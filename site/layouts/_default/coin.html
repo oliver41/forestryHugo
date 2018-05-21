@@ -1,0 +1,18 @@
+{{ partial "head" . }}
+
+{{/* Add your site or webapp content here */}}
+<p>{{ .Content }}</p>
+
+{{/* Loops through and displays all child pages */}}
+<h2>Pages</h2>
+<ul>
+{{ range .Data.Pages }}
+<li>
+  <a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a>
+</li>
+{{ end }}
+</ul>
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+<div class="coinmarketcap-currency-widget" data-currencyid="512" data-base="USD"  data-secondary="BTC"></div>
+
+{{ partial "footer" . }}
